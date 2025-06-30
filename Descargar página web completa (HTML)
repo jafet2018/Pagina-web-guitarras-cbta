@@ -1,0 +1,178 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Tienda de Guitarras - Jafet Jesús Campos García</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background-color: #111;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background-color: #333;
+      text-align: center;
+      padding: 10px 0;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 30px;
+      max-width: 1100px;
+      margin: auto;
+    }
+    h2 {
+      color: #aa0000;
+    }
+    .guitarra {
+      border: 1px solid #ddd;
+      background: white;
+      margin-bottom: 25px;
+      border-radius: 8px;
+      padding: 15px;
+      display: flex;
+      gap: 20px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .guitarra img {
+      max-width: 250px;
+      border-radius: 8px;
+    }
+    .guitarra-info {
+      flex: 1;
+    }
+    footer {
+      background-color: #111;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Tienda de Guitarras - Jafet Jesús Campos García</h1>
+  <p>¡Las mejores guitarras con envío a todo México!</p>
+</header>
+
+<nav>
+  <a href="#catalogo">Catálogo</a>
+  <a href="#info">Información</a>
+  <a href="#envios">Envíos</a>
+  <a href="#contacto">Contacto</a>
+</nav>
+
+<section id="catalogo">
+  <h2>Catálogo de Guitarras</h2>
+
+  <div class="guitarra">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/4/45/Guitars_in_a_music_shop.jpg" alt="Guitarra Acústica">
+    <div class="guitarra-info">
+      <h3>Guitarra Acústica Clásica</h3>
+      <p>Ideal para principiantes, con cuerdas de nailon y excelente resonancia.</p>
+      <strong>Precio: $2,499 MXN</strong>
+    </div>
+  </div>
+
+  <div class="guitarra">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/1/1e/Gibson_Les_Paul_54_Custom.jpg" alt="Guitarra Eléctrica Les Paul">
+    <div class="guitarra-info">
+      <h3>Guitarra Eléctrica Les Paul</h3>
+      <p>Perfecta para rock, blues y metal. Sonido potente y diseño profesional.</p>
+      <strong>Precio: $10,900 MXN</strong>
+    </div>
+  </div>
+
+  <div class="guitarra">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/3/35/Fender_stratocaster.jpg" alt="Guitarra Eléctrica Stratocaster">
+    <div class="guitarra-info">
+      <h3>Guitarra Stratocaster Fender</h3>
+      <p>Guitarra icónica con gran versatilidad y calidad profesional.</p>
+      <strong>Precio: $12,500 MXN</strong>
+    </div>
+  </div>
+
+  <div class="guitarra">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/12_String_Guitar.jpg" alt="Guitarra de 12 cuerdas">
+    <div class="guitarra-info">
+      <h3>Guitarra de 12 Cuerdas</h3>
+      <p>Sonido lleno y brillante para estilos folk y rock clásico.</p>
+      <strong>Precio: $4,800 MXN</strong>
+    </div>
+  </div>
+</section>
+
+
+<section id="info">
+  <h2>Información sobre Guitarras</h2>
+  <p>La guitarra es uno de los instrumentos musicales más populares y versátiles en todo el mundo. Su historia se remonta a miles de años atrás, con antecedentes en laúd árabe y otros instrumentos de cuerda antiguos. A lo largo del tiempo, la guitarra ha evolucionado en forma, técnica y sonido, convirtiéndose en el corazón de muchos géneros musicales, desde el flamenco hasta el rock, el pop y el jazz.</p>
+
+  <p>Existen varios tipos principales de guitarras, cada una con características particulares:</p>
+  <ul>
+    <li><strong>Guitarra acústica:</strong> Posee una caja de resonancia que amplifica el sonido de las cuerdas de manera natural. Es ampliamente utilizada en géneros como el folk, country, pop y balada.</li>
+    <li><strong>Guitarra clásica:</strong> Tiene cuerdas de nailon, un mástil más ancho y una sonoridad cálida. Es ideal para música clásica, flamenco y estilos latinos.</li>
+    <li><strong>Guitarra eléctrica:</strong> Necesita amplificación. Posee pastillas que convierten las vibraciones de las cuerdas en señales eléctricas. Es la preferida para el rock, blues, metal y jazz moderno.</li>
+    <li><strong>Guitarra electroacústica:</strong> Es una guitarra acústica equipada con un sistema de amplificación, lo que permite conectarla a un amplificador sin perder su sonido natural.</li>
+  </ul>
+
+  <p>Además, hay guitarras de 12 cuerdas, guitarras barítonas, guitarras resonadoras y guitarras para zurdos. Cada una diseñada para necesidades específicas de interpretación y estilo musical.</p>
+
+  <p>En cuanto a su estructura, la guitarra está compuesta por varias partes: la cabeza (que contiene las clavijas de afinación), el mástil (donde se encuentran los trastes), el cuerpo (donde se proyecta el sonido), el puente, la cejuela, y en las guitarras eléctricas, las pastillas.</p>
+
+  <p>La elección de una guitarra adecuada depende del nivel del guitarrista, el estilo musical deseado, y el presupuesto. Para principiantes, las guitarras clásicas o acústicas son una buena opción, ya que no requieren amplificación y suelen ser más asequibles. Para músicos más avanzados o interesados en géneros como el rock o el metal, las guitarras eléctricas ofrecen mayor versatilidad sonora.</p>
+
+  <p>El tipo de madera utilizado también influye en el sonido de la guitarra. Algunas maderas comunes son:</p>
+  <ul>
+    <li><strong>Caoba:</strong> Produce un tono cálido y suave, ideal para blues y jazz.</li>
+    <li><strong>Abeto:</strong> Proporciona un sonido brillante y claro, común en guitarras acústicas.</li>
+    <li><strong>Palosanto:</strong> Conocido por su riqueza armónica y sustain, se usa en guitarras de gama alta.</li>
+    <li><strong>Arce:</strong> Ofrece un tono brillante y definido, muy usado en guitarras eléctricas.</li>
+  </ul>
+
+  <p>La guitarra no solo es un instrumento musical, sino también una herramienta de expresión artística. A través de las cuerdas, el intérprete puede comunicar emociones, contar historias o simplemente disfrutar del placer de tocar. La técnica del guitarrista, su sensibilidad y su práctica constante son elementos clave para sacar lo mejor del instrumento.</p>
+
+  <p>Existen múltiples técnicas para tocar la guitarra: rasgueo, punteo, fingerpicking, tapping, sweep picking, palm muting, entre otras. Cada una ofrece diferentes formas de interpretar la música y permite una amplia gama de estilos y sonidos.</p>
+
+  <p>También es importante el cuidado del instrumento. Una guitarra bien cuidada puede durar décadas. Es recomendable mantenerla en un estuche o funda, evitar cambios bruscos de temperatura y humedad, limpiar las cuerdas después de tocar, y cambiar las cuerdas con regularidad.</p>
+
+  <p>Además de las guitarras tradicionales, la tecnología ha permitido la creación de guitarras digitales, modeladas por software o que se integran con computadoras para producir una amplia variedad de efectos. Estas herramientas modernas han expandido los horizontes creativos de músicos de todo el mundo.</p>
+
+  <p>En resumen, la guitarra es un instrumento fundamental en la música contemporánea y tradicional. Ya sea como acompañamiento o como instrumento solista, su versatilidad, expresividad y belleza sonora la convierten en una elección excelente para músicos de todos los niveles. En nuestra tienda, no solo ofrecemos guitarras de alta calidad, sino también asesoría para que encuentres el instrumento que mejor se adapte a ti.</p>
+
+  <p>Te invitamos a explorar nuestro catálogo, ponerte en contacto con nosotros para resolver dudas, y comenzar tu camino musical con el respaldo de quienes amamos las guitarras tanto como tú. ¡Bienvenido a la familia de guitarristas!</p>
+</section>
+
+
+<section id="envios">
+  <h2>Información de Envíos</h2>
+  <p>Hacemos envíos seguros a cualquier parte de México. Todos los productos se embalan cuidadosamente para evitar daños durante el transporte. Tiempo estimado de entrega: 3 a 7 días hábiles.</p>
+</section>
+
+<section id="contacto">
+  <h2>Contacto</h2>
+  <p><strong>Dueño:</strong> Jafet Jesús Campos García</p>
+  <p><strong>Teléfono:</strong> 8135094247</p>
+  <p><strong>Correo:</strong> guitarrasjafet@example.com</p>
+</section>
+
+<footer>
+  <p>&copy; 2025 Tienda de Guitarras - Jafet Jesús Campos García. Todos los derechos reservados.</p>
+</footer>
+
+</body>
+</html>
